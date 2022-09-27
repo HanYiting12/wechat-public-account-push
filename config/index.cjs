@@ -42,7 +42,7 @@ const USER_CONFIG = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -63,11 +63,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '逸庭_',
+      name: '乖乖',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o4WZF6JIhxSuXkPe7x46gLpxFXvU',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'rY-HkfAi3iztDOCw2jWs7C6iqHOBXp96ifccjF1wnWM',
+      useTemplateId: '	8J582NK3c25Zvz8eJ69CcW73gu5xmpE0Kvj3nq1tNOE',
       // 所在省份
       province: '河南',
       // 所在城市
@@ -168,7 +168,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'sx2wpBkEBcRhav4iacSOj3WIcXbzBEFWdjEb5NOgUX0',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -176,7 +176,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o4WZF6JIhxSuXkPe7x46gLpxFXvU',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -191,7 +191,7 @@ const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: '广东',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '广州',
 
   /** 重要节日相关 */
 
