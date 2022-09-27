@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '逸庭_',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o4WZF6JIhxSuXkPe7x46gLpxFXvU',
+      id: 'o4WZF6PaUZ--WksU4lg_RFG6pkA8',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: '8J582NK3c25Zvz8eJ69CcW73gu5xmpE0Kvj3nq1tNOE',
       // 所在省份
@@ -157,6 +157,7 @@ const USER_CONFIG = {
         }
       },
     },
+   
    
    
     // 你可以不断按格式往下增加
